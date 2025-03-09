@@ -34,7 +34,7 @@ export default function Home() {
               <SocialButton icon={<Mail className="h-5 w-5" />} href="mailto:milenaalegre99@gmail.com" label="Email" />
               <SocialButton
                 icon={<Instagram className="h-5 w-5" />}
-                href="https://instagram.com/seu-perfil"
+                href="https://www.instagram.com/milenaalegre_/?next=%2F"
                 label="Instagram"
               />
             </div>

@@ -58,7 +58,7 @@ export default function Skills() {
       <h2 className="text-2xl font-pixel mb-4 text-retro-green">Tecnologias</h2>
       <Card className="pixelated-border bg-gray-800">
         <CardHeader className="pb-2">
-          <CardTitle className="font-pixel text-retro-green text-lg">Tecnologias</CardTitle>
+          {/* <CardTitle className="font-pixel text-retro-green text-lg">Tecnologias</CardTitle> */}
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
@@ -67,7 +67,7 @@ export default function Skills() {
                 <Tooltip>
                   <TooltipTrigger>
                     <div className="flex flex-col items-center group">
-                      <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-gray-700 p-1.5 transition-all duration-300 group-hover:bg-gray-600">
+                      <div className="w-16 h-16 rounded-lg flex items-center justify-center bg-gray-700 p-1.5 transition-all duration-300 group-hover:bg-gray-600">
                         <img
                           src={skill.iconUrl || "/placeholder.svg"}
                           alt={`${skill.name} icon`}

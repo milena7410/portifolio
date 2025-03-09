@@ -29,7 +29,12 @@ const RetroHeader = () => {
     <header className="fixed top-0 left-0 right-0 bg-gray-900 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <div className="text-2xl font-pixel text-retro-green">MA</div>
+          {/* <div className="text-2xl font-pixel text-retro-green">MA</div> */}
+          <img
+        src="/avatar.png"
+          alt="Foto de perfil"
+        className="w-16 h-16 rounded-full border-2 border-retro-green"
+/>
           <nav>
             <ul className="flex space-x-4">
               {[
